@@ -1,0 +1,15 @@
+.empty-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+  height: 100px;
+  color: var(--color-border-warm);
+  border: 1px dashed currentColor;
+
+  &:after {
+    text-align: center;
+    content: 'Список дел пуст. Добавим новый элемент?';
+  }
+}
